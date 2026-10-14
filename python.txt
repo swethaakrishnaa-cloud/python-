@@ -1,0 +1,61 @@
+1)
+
+n = int(input("Enter a number: "))
+
+if n >= 10 and n <= 99:
+    print("Two digit number")
+else:
+    print("Not a two digit number")
+
+2)
+
+n = int(input("Enter a number: "))
+
+if abs(n) % 10 == 5:
+    print("The last digit is 5")
+else:
+    print("The last digit is not 5")
+
+3)
+
+ch = input("Enter a character: ")
+
+if ch.isupper():
+    print("Uppercase letter")
+elif ch.islower():
+    print("Lowercase letter")
+else:
+    print("Not a letter")
+
+4)
+
+ch = input("Enter a character: ")
+
+if ch.isalpha():
+    print("alphabet")
+elif ch.isdigit():
+    print("digit")
+else:
+    print("special character")
+
+5)
+
+temp = float(input("Enter body temperature in Celsius: "))
+
+if temp > 37:
+    print("Temperature is above 37°C")
+elif temp < 37:
+    print("Temperature is below 37°C")
+else:
+    print("Temperature is equal to 37°C")
+
+6)
+
+mark=int(input("enter your mark:"))
+attandance=float(input("enter your attandance percentage")
+if mark <= 90&& attandance <=85%:
+  print("you get the scholarship")
+else:
+  print("you not get the scholarship")
+
+
